@@ -10,10 +10,10 @@ app.get('/health', (req, res) => {
   res.status(200);
 });
 
-app.get('/', (req, res) => {
-  const name = process.env.NAME || 'Thony';
-  res.send(`Hello ${name}!`);
-});
+// app.get('/', (req, res) => {
+//   const name = process.env.NAME || 'Thony';
+//   res.send(`Hello ${name}!`);
+// });
 
 // app.get('/', (req, res) => {
 //   const name = process.env.NAME || 'Thony';
