@@ -34,7 +34,7 @@ app.get('/health', (req, res) => {
 // });
 
 app.get('/', (req, res) => {
-  const name = process.env.NAME || 'Danna deja de llorar';
+  const name = process.env.NAME || 'Hola desde Irlanda eu-west-1';
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
